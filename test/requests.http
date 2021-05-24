@@ -1,0 +1,15 @@
+###
+
+GET http://0.0.0.0:3939/banners.getAll HTTP/1.1
+
+###
+
+GET http://0.0.0.0:3939/banners.getById?id=2 HTTP/1.1
+
+###
+
+GET http://0.0.0.0:3939/banners.save?id=0&title=title4&content=content4&button=button4&link=link4 HTTP/1.1
+
+###
+
+GET http://0.0.0.0:3939/banners.removeById?id=2 HTTP/1.1
